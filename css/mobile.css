@@ -1,0 +1,314 @@
+@media screen and (max-width: 1200px) {
+    /* Our Services block */
+    .main-container {
+        max-width: 960px;
+    }
+    .services-wrapper {
+        max-width: 960px;
+    }
+    .servie-wrapper {
+        width: 450px;
+    }
+    .img-wrapper img {
+        width: 100%;
+        max-width: 100%;
+    }
+    /* Check Price block */
+    .check-price-content-wrapper {
+        max-width: 960px;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    .check-price-text-content-wrapper {
+        width: 100%;
+    }
+    .check-price-mobile-img {
+        width: 35%;
+        margin-top: 45px;
+    }
+    .check-price-mobile-img img {
+        width: 100%;
+    }
+    /* FAQ block */
+    .faq-wrapper {
+        max-width: 960px;
+        padding: 0px 20px;
+    }
+    .faq-img-1-wrapper {
+        width: 252px;
+    }
+    .faq-img-2-wrapper {
+        width: 337px;
+    }
+    /* Contact block */
+    div.contact {
+        padding: 0px 50px;
+    }
+    /*Quality*/
+
+    .quality-items-image-wrapper {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .quality-image-wrapper img {
+        margin-top: 30px;
+    }
+    .quality-wrapper {
+        padding: 0px 50px;
+    }
+    /* About block */
+    section.about {
+        padding: 30px 60px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    section.about .container .row {
+        flex-direction: column;
+    }
+    section.about .container .row div:first-child {
+        max-width: 100%;
+    }
+    section.about .container .row div:last-child {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    /* Our Services block */
+    .main-container {
+        max-width: 640px;
+    }
+    .services-wrapper {
+        max-width: 640px;
+    }
+    .servie-wrapper {
+        width: 290px;
+    }
+    .img-wrapper img {
+        width: 100%;
+        max-width: 100%;
+    }
+    .btn {
+        padding: 10px 60px;
+    }
+    .details-btn {
+        margin-left: 0;
+    }
+    /* Check Price block */
+    .check-price-content-wrapper {
+        max-width: 100%;
+        flex-direction: column;
+        text-align: center;
+    }
+    /* FAQ block */
+    .faq-wrapper {
+        max-width: 920px;
+        min-height: 145vh;
+    }
+    .faq-content-wrapper {
+        flex-direction: column;
+        padding: 23px 30px;
+    }
+    .faq-img-wrapper {
+        margin-top: 35px;
+    }
+    .faq-img-1-wrapper {
+        width: 36%;
+    }
+    .faq-img-2-wrapper {
+        width: 64%;
+    }
+    /* Quality block */
+    .quality-wrapper {
+        max-width: 100%;
+    }
+    .quality-description {
+        width: 100%;
+    }
+    .quality-items-image-wrapper {
+        flex-direction: column;
+    }
+    .quality-items-wrapper {
+        flex-basis: 100%;
+        justify-content: space-between;
+    }
+    .quality-image-wrapper {
+        top: 130%;
+        left: 10%;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    /* Contact block */
+    div.contact div:last-child {
+        flex-direction: column;
+    }
+    div.contact div.row div.contact__details {
+        max-width: 100%;
+    }
+    div.contact div.row div.contact__form {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    /* Our Services block */
+    .main-container {
+        max-width: 640px;
+    }
+    .services-wrapper {
+        max-width: 640px;
+    }
+    .servie-wrapper {
+        width: 600px;
+    }
+    .img-wrapper img {
+        width: 100%;
+        max-width: 100%;
+    }
+    .btn {
+        padding: 10px 20px;
+    }
+    .details-btn {
+        padding: 10px 30px;
+        margin-left: 8px;
+    }
+    /* Check Price block */
+    .check-price-content-wrapper {
+        max-width: 100%;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    .check-price-text-content-wrapper {
+        padding: 0 5px;
+    }
+    .check-price-title {
+        font-size: 2rem;
+    }
+    .check-price-mobile-img {
+        margin-top: 20px;
+    }
+    .btn-msg {
+        padding: 8px 12px;
+    }
+    /* FAQ block */
+    .faq-wrapper {
+        max-width: 95%;
+    }
+    .faq-content-wrapper {
+        padding: 23px 0;
+    }
+
+    /*Contact*/
+    .social__list {
+        width: 70%;
+    }
+
+    /* Quality block */
+    .quality-wrapper {
+        max-width: 95%;
+    }
+    .quality-description {
+        width: 100%;
+    }
+    .quality-items-wrapper {
+        flex-basis: 100%;
+        justify-content: space-between;
+    }
+    .quality-image-wrapper {
+        top: 130%;
+        left: 10%;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .about__image.item:first-child img {
+        max-width: 100%;
+    }
+    .about__image.item:first-child {
+        top: 0;
+        left: 0;
+        padding-bottom: 20px;
+    }
+    .about__image.item:last-child {
+        left: 0;
+    }
+    .about__image.item:last-child img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+@media screen and (max-width: 480px) {
+    .about__image {
+        min-height: 500px;
+    }
+    /* Check Price block */
+    .check-price-content-wrapper {
+        max-width: 100%;
+        flex-direction: column;
+        text-align: center;
+    }
+    .check-price-title {
+        font-size: 2rem;
+    }
+    .check-price-mobile-img {
+        margin-top: 20px;
+    }
+    .btn-msg {
+        padding: 4px;
+    }
+    /* FAQ block */
+    .faq-wrapper {
+        max-width: 95%;
+    }
+    .faq-content-wrapper {
+        padding: 23px 0;
+    }
+    .collapsible::after {
+        padding-left: 5px;
+        left: 92%;
+    }
+    /* Quality block */
+    .quality-wrapper {
+        max-width: 95%;
+    }
+    .quality-description {
+        width: 100%;
+    }
+    .quality-items-wrapper {
+        flex-basis: 100%;
+        flex-wrap: wrap;
+    }
+    .quality-item-wrapper {
+        flex-basis: 100%;
+    }
+    .quality-image-wrapper {
+        top: 120%;
+    }
+    /* Contact block */
+    div.contact div.row div.contact__details {
+        padding: 0px 10px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .about__image {
+        min-height: 400px;
+    }
+}
+
+@media screen and (max-width: 392px) {
+    /* FAQ block */
+    .faq-wrapper {
+        min-height: 150vh;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .about__image {
+        min-height: 300px;
+    }
+}

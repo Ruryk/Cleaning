@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>Title</title>
+   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+   <link rel="stylesheet" href="css/main.css">
+   <!-- Fonts -->
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous" />
+
+   <meta name="format-detection" content="telephone=no">
+
+   <meta name="description" content="">
+   <meta name="keywords" content="">
+
+   <!-- Favicon -->
+</head>
+
+<body>
+
+   <div class="wrapper">
+      <!-- Header -->
+
+      <header class="header">
+         <div class="header__slider swiper-container">
+            <div class="header__slider-images">
+               <img src="img/slides/1.jpg" alt="1">
+               <img src="img/slides/2.jpg" alt="2">
+               <img src="img/slides/3.jpg" alt="3">
+            </div>
+
+            <!-- Nav -->
+            <nav class="nav">
+               <div class="nav__top">
+                  <div class="container">
+                     <div class="nav__top-body">
+                        <ul class="socials">
+                           <li>
+                              <a href="https://www.facebook.com/CityCleaningCompany" target="_blank"
+                                 class="socials__link">
+                                 <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-f"
+                                    class="svg-inline--fa fa-facebook-f fa-w-10" role="img"
+                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                    <path fill="currentColor"
+                                       d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z">
+                                    </path>
+                                 </svg>
+                              </a>
+                           </li>
+                           <li>
+                              <a href="https://instagram.com/_citycleaning?igshid=1p6t45w9ic43i" target="_blank"
+                                 class="socials__link">
+                                 <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram"
+                                    class="svg-inline--fa fa-instagram fa-w-14" role="img"
+                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                    <path fill="currentColor"
+                                       d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z">
+                                    </path>
+                                 </svg>
+                              </a>
+                           </li>
+                           <li>
+                              <a href="viber://forward?text=+380687200202" target="_blank" class="socials__link">
+                                 <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="viber"
+                                    class="svg-inline--fa fa-viber fa-w-16" role="img"
+                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                    <path fill="currentColor"
+                                       d="M444 49.9C431.3 38.2 379.9.9 265.3.4c0 0-135.1-8.1-200.9 52.3C27.8 89.3 14.9 143 13.5 209.5c-1.4 66.5-3.1 191.1 117 224.9h.1l-.1 51.6s-.8 20.9 13 25.1c16.6 5.2 26.4-10.7 42.3-27.8 8.7-9.4 20.7-23.2 29.8-33.7 82.2 6.9 145.3-8.9 152.5-11.2 16.6-5.4 110.5-17.4 125.7-142 15.8-128.6-7.6-209.8-49.8-246.5zM457.9 287c-12.9 104-89 110.6-103 115.1-6 1.9-61.5 15.7-131.2 11.2 0 0-52 62.7-68.2 79-5.3 5.3-11.1 4.8-11-5.7 0-6.9.4-85.7.4-85.7-.1 0-.1 0 0 0-101.8-28.2-95.8-134.3-94.7-189.8 1.1-55.5 11.6-101 42.6-131.6 55.7-50.5 170.4-43 170.4-43 96.9.4 143.3 29.6 154.1 39.4 35.7 30.6 53.9 103.8 40.6 211.1zm-139-80.8c.4 8.6-12.5 9.2-12.9.6-1.1-22-11.4-32.7-32.6-33.9-8.6-.5-7.8-13.4.7-12.9 27.9 1.5 43.4 17.5 44.8 46.2zm20.3 11.3c1-42.4-25.5-75.6-75.8-79.3-8.5-.6-7.6-13.5.9-12.9 58 4.2 88.9 44.1 87.8 92.5-.1 8.6-13.1 8.2-12.9-.3zm47 13.4c.1 8.6-12.9 8.7-12.9.1-.6-81.5-54.9-125.9-120.8-126.4-8.5-.1-8.5-12.9 0-12.9 73.7.5 133 51.4 133.7 139.2zM374.9 329v.2c-10.8 19-31 40-51.8 33.3l-.2-.3c-21.1-5.9-70.8-31.5-102.2-56.5-16.2-12.8-31-27.9-42.4-42.4-10.3-12.9-20.7-28.2-30.8-46.6-21.3-38.5-26-55.7-26-55.7-6.7-20.8 14.2-41 33.3-51.8h.2c9.2-4.8 18-3.2 23.9 3.9 0 0 12.4 14.8 17.7 22.1 5 6.8 11.7 17.7 15.2 23.8 6.1 10.9 2.3 22-3.7 26.6l-12 9.6c-6.1 4.9-5.3 14-5.3 14s17.8 67.3 84.3 84.3c0 0 9.1.8 14-5.3l9.6-12c4.6-6 15.7-9.8 26.6-3.7 14.7 8.3 33.4 21.2 45.8 32.9 7 5.7 8.6 14.4 3.8 23.6z">
+                                    </path>
+                                 </svg>
+                              </a>
+                           </li>
+                           <li>
+                              <a href="https://t.me/CityCleaningCompany" target="_blank" class="socials__link">
+                                 <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="telegram"
+                                    class="svg-inline--fa fa-telegram fa-w-16" role="img"
+                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                                    <path fill="currentColor"
+                                       d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm121.8 169.9l-40.7 191.8c-3 13.6-11.1 16.9-22.4 10.5l-62-45.7-29.9 28.8c-3.3 3.3-6.1 6.1-12.5 6.1l4.4-63.1 114.9-103.8c5-4.4-1.1-6.9-7.7-2.5l-142 89.4-61.2-19.1c-13.3-4.2-13.6-13.3 2.8-19.7l239.1-92.2c11.1-4 20.8 2.7 17.2 19.5z">
+                                    </path>
+                                 </svg>
+                              </a>
+                           </li>
+                        </ul>
+
+                        <div class="nav__top-info">
+                           <a href="#" class="nav__top-address">
+                              <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="map-marker-alt"
+                                 class="svg-inline--fa fa-map-marker-alt fa-w-12" role="img"
+                                 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                                 <path fill="currentColor"
+                                    d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z">
+                                 </path>
+                              </svg>
+                              <address>
+                                 м.Київ,<br>вулиця Академіка Писаржевського, 8.
+                              </address>
+                           </a>
+
+                           <div class="nav__top-phones">
+                              <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="phone"
+                                 class="svg-inline--fa fa-phone fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
+                                 viewBox="0 0 512 512">
+                                 <path fill="currentColor"
+                                    d="M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z">
+                                 </path>
+                              </svg>
+                              <ul>
+                                 <li><a href="tel:+30687200202">068-720-02-02</a></li>
+                                 <li><a href="tel:+380957200202">095-720-02-02</a></li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="nav__bottom">
+                  <div class="container">
+                     <div class="nav__bottom-body">
+                        <a href="/" class="logo">
+                           <img src="img/logo.png" alt="Clen Go">
+                        </a>
+
+                        <div class="nav__bottom-burger">
+                           <span></span>
+                           <span></span>
+                           <span></span>
+                        </div>
+
+                        <ul class="nav__bottom-menu">
+                           <li><a href="/" class="nav__bottom-link active">Головна</a></li>
+                           <li>
+                              <a href="#service" class="nav__bottom-link nav__bottom-link_submenu">Послуги</a>
+                              <ul class="nav__bottom-submenu">
+                                 <li><a href="/" class="nav__bottom-link">Індивідуальне прибирання</a></li>
+                                 <li><a href="/" class="nav__bottom-link">Підтримуюче прибирання</a></li>
+                                 <li><a href="/" class="nav__bottom-link">Генеральне прибирання</a></li>
+                                 <li><a href="/" class="nav__bottom-link">Меблі та коври</a></li>
+                                 <li><a href="/" class="nav__bottom-link">Прибудинкова територія</a></li>
+                                 <li><a href="/" class="nav__bottom-link">Прибирання офісів</a></li>
+                                 <li><a href="/" class="nav__bottom-link">Вікна та фасади</a></li>
+                                 <li><a href="/" class="nav__bottom-link">Після ремонтних робіт</a></li>
+                              </ul>
+                           </li>
+                           <li><a href="/" class="nav__bottom-link">Про нас</a></li>
+                           <li><a href="/" class="nav__bottom-link">Ціни</a></li>
+                           <li><a href="/" class="nav__bottom-link">Якість</a></li>
+                           <li><a href="/" class="nav__bottom-link">Питання</a></li>
+                           <li><a href="#contact" class="nav__bottom-link">Контакти</a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="nav__burger">
+                  <div class="container">
+                     <ul class="nav__burger-menu">
+                        <li><a href="/" class="nav__burger-link active">Головна</a></li>
+                        <li class="nav__burger-link_submenu">
+                           <a href="/" class="nav__burger-link">Послуги</a>
+                           <ul class="nav__burger-submenu">
+                              <li><a href="/" class="nav__burger-link">Індивідуальне прибирання</a></li>
+                              <li><a href="/" class="nav__burger-link">Підтримуюче прибирання</a></li>
+                              <li><a href="/" class="nav__burger-link">Генеральне прибирання</a></li>
+                              <li><a href="/" class="nav__burger-link">Меблі та коври</a></li>
+                              <li><a href="/" class="nav__burger-link">Прибудинкова територія</a></li>
+                              <li><a href="/" class="nav__burger-link">Прибирання офісів</a></li>
+                              <li><a href="/" class="nav__burger-link">Вікна та фасади</a></li>
+                              <li><a href="/" class="nav__burger-link">Після ремонтних робіт</a></li>
+                           </ul>
+                        </li>
+                        <li><a href="/" class="nav__burger-link">Про нас</a></li>
+                        <li><a href="/" class="nav__burger-link">Ціни</a></li>
+                        <li><a href="/" class="nav__burger-link">Якість</a></li>
+                        <li><a href="/" class="nav__burger-link">Питання</a></li>
+                        <li><a href="#contact" class="nav__burger-link">Контакти</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </nav>
+
+            <div class="header__slider-wrapper swiper-wrapper">
+               <div class="swiper-slide">
+                  <div class="container">
+                     <div class="header__slider-content">
+                        <h3 class="header__slider-subtitle">Вітаємо на нашому сайті</h3>
+                        <h2 class="header__slider-title">City Сleaning Сompany</h2>
+                        <p class="header__slider-text">Професійне прибирання квартир, будинків, комерційної нерухомості.
+                        </p>
+                        <div class="header__slider-btns">
+                           <a href="/" class="btn">Про нас</a>
+                           <a href="#service" class="btn btn_g popup__open">Замовити послугу</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="swiper-slide">
+                  <div class="container">
+                     <div class="header__slider-content">
+                        <h3 class="header__slider-subtitle">Вітаємо на нашому сайті</h3>
+                        <h2 class="header__slider-title">City Сleaning Сompany</h2>
+                        <p class="header__slider-text">Доки ви зайняті своїми справами ми по піклуємося про чистоту у
+                           Вашому домі .</p>
+                        <div class="header__slider-btns">
+                           <a href="/" class="btn">Про нас</a>
+                           <a href="#service" class="btn btn_g popup__open">Замовити послугу</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="swiper-slide">
+                  <div class="container">
+                     <div class="header__slider-content">
+                        <h3 class="header__slider-subtitle">Вітаємо на нашому сайті</h3>
+                        <h2 class="header__slider-title">City Сleaning Сompany</h2>
+                        <p class="header__slider-text">Індивідуальний підхід до кожного клієнта.</p>
+                        <div class="header__slider-btns">
+                           <a href="/" class="btn">Про нас</a>
+                           <a href="#service" class="btn btn_g popup__open">Замовити послугу</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="container">
+               <div class="header__pagination">
+                  <div class="header__slider-pagination swiper-pagination"></div>
+
+                  <div class="header__slider-pagtext">
+                     <p>Чисті будинки</p>
+                     <p>Чисті коври</p>
+                     <p>Чисті офіси</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <div class="container">
+            <div class="header__hotline-wrap">
+               <div class="header__hotline">
+                  <p class="header__hotline-title">Гаряча лінія</p>
+                  <p class="header__hotline-text">Отримати довідку:</p>
+                  <a href="tel:+88005632240" class="header__hotline-phone">
+                     <span class="header__hotline-icon">
+                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="phone"
+                           class="svg-inline--fa fa-phone fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
+                           viewBox="0 0 512 512">
+                           <path fill="currentColor"
+                              d="M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z">
+                           </path>
+                        </svg>
+                     </span>
+                     <span>8 800 563 2240</span>
+                  </a>
+               </div>
+            </div>
+         </div>
+      </header>
+
+      <!-- Main -->
+
+      <main class="main">
+
+         <section class="service" id="service">
+            <div class="container">
+               <div class="row">
+                  <h2 class="service__title"><span>Генеральная</span> уборка</h2>
+               </div>
+               <div class="row">
+                  <div class="column">
+                     <div class="service__body">
+                        <h3 class="service__subtitle">На кухне:</h3>
+                        <ul class="service__list">
+                           <li>Моем раковину, столешницу и кухонный фартук</li>
+                           <li>Моем снаружи плиту, холодильник и вытяжку</li>
+                           <li>Протираем фасады шкафов</li>
+                           <li>Протираем выключатели и дверные ручки</li>
+                           <li>Чистим зеркала и стеклянные поверхности</li>
+                           <li>Моем пол и протираем плинтусы</li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="column">
+                     <div class="service__image">
+                        <img src="./img/service/01_service.webp" alt="bg_service_01" />
+                     </div>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="column">
+                     <div class="service__image">
+                        <img src="./img/service/02_service.webp" alt="bg_service_02" />
+                     </div>
+                  </div>
+                  <div class="column">
+                     <div class="service__body">
+                        <h3 class="service__subtitle">В ванной комнате:</h3>
+                        <ul class="service__list">
+                           <li>Чистим унитаз</li>
+                           <li>Моем ванну, душевую кабину и раковину</li>
+                           <li>Моем стены, кафельную плитку</li>
+                           <li>Моем пол и протираем плинтусы</li>
+                           <li>Пылесосим коврики</li>
+                           <li>Протираем выключатели и дверные ручки</li>
+                           <li>Чистим зеркала и стеклянные поверхности</li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="column">
+                     <div class="service__body">
+                        <h3 class="service__subtitle">В комнатах:</h3>
+                        <ul class="service__list">
+                           <li>Сухое обеспыливание: Потолков, стен, карнизов, светильников;</li>
+                           <li>Протираем мебель (шкафы, комоды, тумбочки, и другая мебель)</li>
+                           <li>Протираем технику и предметы интерьера, радиаторы отопления</li>
+                           <li>Пылесосим ковры и коврики</li>
+                           <li>Чистим зеркала и стеклянные поверхности</li>
+                           <li>Моем пол и протираем плинтусы</li>
+                           <li>Протираем межкомнатные двери (ручки, фурнитура откосы);</li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="column">
+                     <div class="service__image">
+                        <img src="./img/service/03_service.webp" alt="bg_service_03" />
+                     </div>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="column">
+                     <div class="service__image">
+                        <img src="./img/service/04_service.webp" alt="bg_service_04" />
+                     </div>
+                  </div>
+                  <div class="column">
+                     <div class="service__body">
+                        <h3 class="service__subtitle">В коридоре:</h3>
+                        <ul class="service__list">
+                           <li>Протираем все доступные поверхности</li>
+                           <li>Протираем выключатели и дверные ручки</li>
+                           <li>Чистим зеркала и стеклянные поверхности</li>
+                           <li>Расставляем обувь</li>
+                           <li>Собираем и выносим мусор</li>
+                           <li>Моем пол и протираем плинтусы</li>
+                           <li>Протираем входные двери (ручки, фурнитура откосы);</li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="contact" id="contact">
+            <div class="container">
+               <div class="contact">
+                  <div class="row">
+                     <div class="details__content title">
+                        <h2><span>Зв'язатися</span> з нами</h2>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="contact__details details">
+                        <div class="details__content subtitle">
+                           <div class="subtitle__text">
+                              <p>
+                                 Якщо у вас все ще є питання, будь ласка, зв’яжіться з нами.
+                              </p>
+                           </div>
+                        </div>
+                        <div class="details__content phone">
+                           <div class="phone__head">
+                              <h3>Телефони:</h3>
+                           </div>
+                           <div class="phone__text">
+                              <p>
+                                 068-720-02-02
+                                 <br>
+                                 095-720-02-02
+                              </p>
+
+                           </div>
+                        </div>
+                        <div class="details__content address">
+                           <div class="address__head">
+                              <h3>Адреса:</h3>
+                           </div>
+                           <div class="address__text">
+                              <p>
+                                 м.Київ, вулиця Академіка Писаржевського, 8.
+                              </p>
+                           </div>
+                        </div>
+                        <div class="details__content social">
+                           <ul class="social__list">
+                              <li class="social__list item"><a href="https://www.facebook.com/CityCleaningCompany"
+                                    target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                              <li class="social__list item"><a
+                                    href="https://instagram.com/_citycleaning?igshid=1p6t45w9ic43i" target="_blank"><i
+                                       class="fab fa-instagram"></i></a></li>
+                              <li class="social__list item"><a href="viber://forward?text=+380687200202"
+                                    target="_blank"><i class="fab fa-viber"></i></a>
+                              </li>
+                              <li class="social__list item"><a href="https://t.me/CityCleaningCompany"
+                                    target="_blank"><i class="fab fa-telegram"></i></a></li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="contact__form">
+                        <form action="">
+                           <div class="form-control">
+                              <input type="text" id="" placeholder="Ваше ім`я">
+                           </div>
+                           <div class="form-control">
+                              <input type="email" id="" placeholder="Ваш email">
+                           </div>
+                           <div class="form-control">
+                              <textarea id="exampleFormControlTextarea1" rows="5" placeholder="Ваше питання"></textarea>
+                           </div>
+                           <div class="form-control">
+                              <button type="submit" class="btn-cleaning-success">Відправити</button>
+                           </div>
+                        </form>
+                     </div>
+                  </div>
+
+               </div>
+            </div>
+         </section>
+
+      </main>
+
+      <!-- Footer -->
+
+      <footer class="footer">
+         <div class="footer__body">
+            <div class="footer__content">
+               <div class="container">
+                  <div class="footer__parts">
+                     <div class="footer__part">
+                        <div class="footer__part-wrap">
+                           <a href="/" class="logo">
+                              <img src="img/logo.png" alt="Clen Go">
+                           </a>
+
+                           <p class="footer__text">Компанія, яка допоможе вам провести прибирання в квартирі, будинку
+                              або офісі за короткий
+                              термін з максимальним ефектом при цьому дасть вам змогу заощадити сили і час.</p>
+                        </div>
+                     </div>
+
+                     <div class="footer__part">
+                        <div class="footer__part-wrap">
+                           <ul class="menu">
+                              <li class="menu__title">Послуги:</li>
+                              <li><a href="/" class="menu__link">Підтримуюче прибирання</a></li>
+                              <li><a href="/" class="menu__link">Генеральне прибирання</a></li>
+                              <li><a href="/" class="menu__link">Меблі та коври</a></li>
+                              <li><a href="/" class="menu__link">Прибудинкова територія</a></li>
+                              <li><a href="/" class="menu__link">Прибирання офісів</a></li>
+                              <li><a href="/" class="menu__link">Вікна та фасади</a></li>
+                              <li><a href="/" class="menu__link">Після ремонтних робіт</a></li>
+                           </ul>
+                        </div>
+                     </div>
+
+                     <div class="footer__part">
+                        <div class="footer__part-wrap">
+                           <ul class="menu">
+                              <li class="menu__title">Посилання:</li>
+                              <li><a href="/" class="menu__link">Головна</a></li>
+                              <li><a href="/" class="menu__link">Послуги</a></li>
+                              <li><a href="/" class="menu__link">Про нас</a></li>
+                              <li><a href="/" class="menu__link">Ціни</a></li>
+                              <li><a href="/" class="menu__link">Якість</a></li>
+                              <li><a href="/" class="menu__link">Питання</a></li>
+                              <li><a href="#contact" class="nmenu__link">Контакти</a></li>
+                           </ul>
+                        </div>
+                     </div>
+
+                     <div class="footer__part">
+                        <div class="footer__part-wrap">
+                           <form action="#" class="footer__form">
+                              <label for="email" class="footer__form-title">Зв'яжися з нами:</label>
+                              <div class="footer__form-input">
+                                 <input id="email" type="email" placeholder="Ваш Email">
+                                 <button type="submit" class="footer__form-btn">
+                                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="paper-plane"
+                                       class="svg-inline--fa fa-paper-plane fa-w-16" role="img"
+                                       xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                       <path fill="currentColor"
+                                          d="M476 3.2L12.5 270.6c-18.1 10.4-15.8 35.6 2.2 43.2L121 358.4l287.3-253.2c5.5-4.9 13.3 2.6 8.6 8.3L176 407v80.5c0 23.6 28.5 32.9 42.5 15.8L282 426l124.6 52.2c14.2 6 30.4-2.9 33-18.2l72-432C515 7.8 493.3-6.8 476 3.2z">
+                                       </path>
+                                    </svg>
+                                 </button>
+                              </div>
+                              <p class="footer__form-text">Підпишіться на нас, щоб бути в курсі всіх новин та оновлень.
+                              </p>
+
+                              <ul class="footer__form-socials socials socials_g">
+                                 <li>
+                                    <a href="https://www.facebook.com/CityCleaningCompany" target="_blank"
+                                       class="socials__link">
+                                       <svg aria-hidden="true" focusable="false" data-prefix="fab"
+                                          data-icon="facebook-f" class="svg-inline--fa fa-facebook-f fa-w-10" role="img"
+                                          xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                          <path fill="currentColor"
+                                             d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z">
+                                          </path>
+                                       </svg>
+                                    </a>
+                                 </li>
+                                 <li>
+                                    <a href="https://instagram.com/_citycleaning?igshid=1p6t45w9ic43i" target="_blank"
+                                       class="socials__link">
+                                       <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram"
+                                          class="svg-inline--fa fa-instagram fa-w-14" role="img"
+                                          xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                          <path fill="currentColor"
+                                             d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z">
+                                          </path>
+                                       </svg>
+                                    </a>
+                                 </li>
+                                 <li>
+                                    <a href="viber://forward?text=+380687200202" target="_blank" class="socials__link">
+                                       <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="viber"
+                                          class="svg-inline--fa fa-viber fa-w-16" role="img"
+                                          xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                          <path fill="currentColor"
+                                             d="M444 49.9C431.3 38.2 379.9.9 265.3.4c0 0-135.1-8.1-200.9 52.3C27.8 89.3 14.9 143 13.5 209.5c-1.4 66.5-3.1 191.1 117 224.9h.1l-.1 51.6s-.8 20.9 13 25.1c16.6 5.2 26.4-10.7 42.3-27.8 8.7-9.4 20.7-23.2 29.8-33.7 82.2 6.9 145.3-8.9 152.5-11.2 16.6-5.4 110.5-17.4 125.7-142 15.8-128.6-7.6-209.8-49.8-246.5zM457.9 287c-12.9 104-89 110.6-103 115.1-6 1.9-61.5 15.7-131.2 11.2 0 0-52 62.7-68.2 79-5.3 5.3-11.1 4.8-11-5.7 0-6.9.4-85.7.4-85.7-.1 0-.1 0 0 0-101.8-28.2-95.8-134.3-94.7-189.8 1.1-55.5 11.6-101 42.6-131.6 55.7-50.5 170.4-43 170.4-43 96.9.4 143.3 29.6 154.1 39.4 35.7 30.6 53.9 103.8 40.6 211.1zm-139-80.8c.4 8.6-12.5 9.2-12.9.6-1.1-22-11.4-32.7-32.6-33.9-8.6-.5-7.8-13.4.7-12.9 27.9 1.5 43.4 17.5 44.8 46.2zm20.3 11.3c1-42.4-25.5-75.6-75.8-79.3-8.5-.6-7.6-13.5.9-12.9 58 4.2 88.9 44.1 87.8 92.5-.1 8.6-13.1 8.2-12.9-.3zm47 13.4c.1 8.6-12.9 8.7-12.9.1-.6-81.5-54.9-125.9-120.8-126.4-8.5-.1-8.5-12.9 0-12.9 73.7.5 133 51.4 133.7 139.2zM374.9 329v.2c-10.8 19-31 40-51.8 33.3l-.2-.3c-21.1-5.9-70.8-31.5-102.2-56.5-16.2-12.8-31-27.9-42.4-42.4-10.3-12.9-20.7-28.2-30.8-46.6-21.3-38.5-26-55.7-26-55.7-6.7-20.8 14.2-41 33.3-51.8h.2c9.2-4.8 18-3.2 23.9 3.9 0 0 12.4 14.8 17.7 22.1 5 6.8 11.7 17.7 15.2 23.8 6.1 10.9 2.3 22-3.7 26.6l-12 9.6c-6.1 4.9-5.3 14-5.3 14s17.8 67.3 84.3 84.3c0 0 9.1.8 14-5.3l9.6-12c4.6-6 15.7-9.8 26.6-3.7 14.7 8.3 33.4 21.2 45.8 32.9 7 5.7 8.6 14.4 3.8 23.6z">
+                                          </path>
+                                       </svg>
+                                    </a>
+                                 </li>
+                                 <li>
+                                    <a href="https://t.me/CityCleaningCompany" target="_blank" class="socials__link">
+                                       <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="telegram"
+                                          class="svg-inline--fa fa-telegram fa-w-16" role="img"
+                                          xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                                          <path fill="currentColor"
+                                             d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm121.8 169.9l-40.7 191.8c-3 13.6-11.1 16.9-22.4 10.5l-62-45.7-29.9 28.8c-3.3 3.3-6.1 6.1-12.5 6.1l4.4-63.1 114.9-103.8c5-4.4-1.1-6.9-7.7-2.5l-142 89.4-61.2-19.1c-13.3-4.2-13.6-13.3 2.8-19.7l239.1-92.2c11.1-4 20.8 2.7 17.2 19.5z">
+                                          </path>
+                                       </svg>
+                                    </a>
+                                 </li>
+                              </ul>
+                           </form>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="footer__copyright">
+               <div class="container">
+                  <p class="copyright">© 2021. City Сleaning Сompany. All Rights Reserved.</p>
+               </div>
+            </div>
+         </div>
+      </footer>
+   </div>
+
+   <!-- Popup -->
+   <div class="popup__order">
+      <div class="popup__body">
+         <div class="contact__form">
+            <div class="popup__title">
+               <h2>Виберіть послугу для замовлення</h2>
+            </div>
+            <div class="popup__subtitle">
+               <p>Ми не передаємо ваші дані третім особам</p>
+            </div>
+         </div>
+         <div class="contact__form">
+            <form action="" id="form__order">
+               <div class="form-control">
+                  <input type="text" id="order__name" name="order__name" placeholder="Ваше ім`я">
+               </div>
+               <div class="form-control">
+                  <input type="number" id="order__phone" name="order__phone" placeholder="Ваш номер">
+               </div>
+               <div class="form-control">
+                  <select name="order__service" id="order__service">
+                     <option value="" selected>Виберіть вид прибирання</option>
+                     <option value="Індивідуальне прибирання">Індивідуальне прибирання</option>
+                     <option value="Підтримуюче прибирання">Підтримуюче прибирання</option>
+                     <option value="Генеральне прибирання">Генеральне прибирання</option>
+                     <option value="Меблі та коври">Меблі та коври</option>
+                     <option value="Прибудинкова територія">Прибудинкова територія</option>
+                     <option value="Прибирання офісів">Прибирання офісів</option>
+                     <option value="Вікна та фасади">Вікна та фасади</option>
+                     <option value="Після ремонтних робіт">Після ремонтних робіт</option>
+                  </select>
+               </div>
+               <div class="form-control">
+                  <button type="submit" id="order__send" name="order__service"
+                     class="btn-order-success">Замовити</button>
+               </div>
+            </form>
+         </div>
+      </div>
+   </div>
+   <!-- Widget -->
+   <div class="widget">
+      <div class="widget__menu">
+         <input type="checkbox" href="#" class="widget__menu-open" name="widget__menu-open" id="widget__menu-open" />
+         <label class="widget__menu-open-button" for="widget__menu-open">
+            <span class="widget__hamburger hamburger-1"></span>
+            <span class="widget__hamburger hamburger-2"></span>
+            <span class="widget__hamburger hamburger-3"></span>
+         </label>
+         <a href="https://www.facebook.com/CityCleaningCompany" target="_blank" class="widget__menu-item"><i
+               class="fab fa-facebook"></i></a>
+         <a href="https://instagram.com/_citycleaning?igshid=1p6t45w9ic43i" target="_blank" class="widget__menu-item"><i
+               class="fab fa-instagram"></i></a>
+         <a href="viber://forward?text=+380687200202" target="_blank" class="widget__menu-item"><i
+               class="fab fa-viber"></i></a>
+         <a href="https://t.me/CityCleaningCompany" target="_blank" class="widget__menu-item"><i
+               class="fab fa-telegram"></i></a>
+      </div>
+   </div>
+
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+   <script src="js/script.js"></script>
+</body>
+
+</html>
